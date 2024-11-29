@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Club Registration</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style> 
+    body{ 
+    background-image: url("tech.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+     }
+    .container { 
+      padding: 100px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    </style>
+</head>
+<body>
+<div class="container mt-3">   
+   <h1 class="mb-4 text-center">
+   Robotics Club Registration Form
+   </h1>
+   <form>
+    <div class="row mb-3"> 
+      <div class="col-md-6">
+        <div class="form-group">
+         <label for="Name">Name</label> 
+         <input type="text" class="form-control" id="Name" placeholder="Input name here" required>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+         <label for="Age">Age</label> 
+         <input type="Age" class="form-control" id="Age" placeholder="Input age here" required>
+        </div>
+      </div>     
+    </div>
+    <div class="row mb-3"> 
+      <div class="col-md-6">
+        <div class="form-group">
+         <label for="Email">Email Address</label> 
+         <input type="email" class="form-control" id="Email" placeholder="Input email here" required>
+        </div>
+      </div> 
+     <div class="col-md-6">
+      <div class="form-group">
+       <label for="Number">Phone Number</label> 
+       <input type="text" class="form-control" id="Number" placeholder="Input phone number here" required>
+      </div>
+     </div>
+    </div>
+    <h5 class="mb-4">
+    Preferred Robotics Topics
+    </h5>
+    <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="check1" required> 
+      <label class="form-check-label" for="check1">Programming</label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="check2" required>
+      <label class="form-check-label" for="check2">Electronics</label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="check3" required>
+      <label class="form-check-label" for="check3">Mechanical Design</label>
+    </div>
+    <h5 class="mb-4">
+    Robotics Experience Level 
+    </h5>
+    <div class="form-check mb-3">
+      <input type="radio" class="form-check-input" id="check4" required>
+      <label class="form-check-label" for="check4"> Beginner </label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="radio" class="form-check-input" id="check5" required>
+      <label class="form-check-label" for="check5"> Intermediate </label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="radio" class="form-check-input" id="check6" required>
+      <label class="form-check-label" for="check6"> Advanced </label>
+    </div>
+    <div class="form-group">
+      <label for="Project" class="mb-3">Preferred Robotics Field</label>
+      <select id="Project" class="form-control">
+      <option>Mechanical</option>
+      <option>Electrical</option>
+      <option>Technical</option> 
+      </select> 
+    </div>
+    <div class="form-group">
+     <label for="Textarea">Statement of Interest</label>
+     <textarea class="form-control" id="Textarea" rows="4" placeholder="If you have anything to mention, you may include it here."></textarea>
+    </div>
+     <button type="submit" class="btn btn-primary">Submit</button>
+   </form>
+</div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>
+</html>
